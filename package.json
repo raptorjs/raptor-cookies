@@ -1,0 +1,31 @@
+{
+  "name": "raptor-cookies",
+  "description": "Simple module to support reading and writing cookies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raptorjs3/raptor-cookies.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib"
+  },
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "dependencies": {
+    "cookie": "^0.1.2",
+    "raptor-polyfill": "^0.2.2-beta",
+    "raptor-util": "^0.2.4-beta"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "chai": "~1.8.1",
+    "jshint": "~2.3.0",
+    "raptor-logging": "^0.2.0-beta"
+  },
+  "license": "Apache License v2.0",
+  "bin": {},
+  "main": "lib/raptor-cookies.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "0.1.0-beta"
+}
