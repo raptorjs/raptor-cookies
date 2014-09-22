@@ -12,14 +12,14 @@
     "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
     "dependencies": {
         "cookie": "^0.1.2",
-        "raptor-polyfill": "^1.0.0-beta",
-        "raptor-util": "^1.0.0-beta"
+        "raptor-polyfill": "^1.0.0",
+        "raptor-util": "^1.0.0"
     },
     "devDependencies": {
         "mocha": "~1.15.1",
         "chai": "~1.8.1",
         "jshint": "~2.3.0",
-        "raptor-logging": "^1.0.0-beta"
+        "raptor-logging": "^1.0.0"
     },
     "license": "Apache License v2.0",
     "bin": {},
