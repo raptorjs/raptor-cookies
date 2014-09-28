@@ -1,31 +1,31 @@
 {
-  "name": "raptor-cookies",
-  "description": "Simple module to support reading and writing cookies",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raptorjs3/raptor-cookies.git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "dependencies": {
-    "cookie": "^0.1.2",
-    "raptor-polyfill": "^1.0.0",
-    "raptor-util": "^1.0.0"
-  },
-  "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1",
-    "jshint": "~2.3.0",
-    "raptor-logging": "^1.0.1"
-  },
-  "license": "Apache License v2.0",
-  "bin": {},
-  "main": "lib/raptor-cookies.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "version": "1.0.1"
+    "name": "raptor-cookies",
+    "description": "Simple module to support reading and writing cookies",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs3/raptor-cookies.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "dependencies": {
+        "cookie": "^0.1.2",
+        "raptor-polyfill": "^1.0.0",
+        "raptor-util": "^1.0.0"
+    },
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1",
+        "jshint": "~2.3.0",
+        "raptor-logging": "^1.0.1"
+    },
+    "license": "Apache License v2.0",
+    "bin": {},
+    "main": "lib/raptor-cookies.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "version": "1.0.2"
 }
