@@ -3,7 +3,7 @@
     "description": "Simple module to support reading and writing cookies",
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs3/raptor-cookies.git"
+        "url": "https://github.com/raptorjs/raptor-cookies.git"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib"
